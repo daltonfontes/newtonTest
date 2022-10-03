@@ -1,0 +1,18 @@
+.footer {
+    background-color: $gray;
+    color: $white;
+    padding: 1rem;
+    text-align: center;
+
+    &__text {
+        display: flex;
+        font-size: 1rem;
+        margin-bottom: 35px;
+        font-family: $font-family;
+        color: $gray-2;
+    }
+
+    &__text a{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,70 @@
+.space {
+
+    &__image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__subtitle {
+        font-size: 3.125rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        font-family: $font-family-2;
+        color: $gray-2;
+    }
+
+    &__svg {
+        background: transparent url(/images/way.svg) 0% 0% no-repeat padding-box;
+        background-size: contain;
+        position: fixed;
+        top: 2388px;
+        width: 25%;
+        height: 100%;
+        left: 0;
+
+    }
+
+    &__title {
+        color: $gray-2;
+        font-size: 1.875rem;
+        font-family: $font-family-2;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    &__title::after {
+        display: inline-block;
+        content: ' ';
+        width: 50px;
+        height: 2px;
+        background-color: $gray-2;
+        margin-left: 1rem;
+        margin-bottom: 0.300rem;
+    }
+
+    &__text {
+        font-size: 1rem;
+        margin-bottom: 35px;
+        font-family: $font-family;
+        color: $gray-2;
+        word-break: break-word;
+    }
+}
+
+@media(max-width:767px) {
+    .space__text {
+        order: 1;
+    }
+
+    .space__image {
+        order: 2;
+    }
+
+    .space__title {
+        font-size: 2rem;
+    }
+
+    .space__subtitle {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: $white;
+    height: 10vh;
+    box-shadow: 0px 5px 9px $gray-3;
+
+    &__list {
+        display: flex;
+    }
+
+    &__list li {
+        margin-right: 100px;
+    }
+
+    &__list a {
+        text-decoration: none;
+        font-family: $font-family;
+        font-size: 16px;
+        color: $gray-2;
+    }
+
+    &__list a:hover {
+        opacity: 0.7;
+    }
+
+    &__list i {
+        color: $red;
+    }
+}

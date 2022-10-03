@@ -1,0 +1,30 @@
+// Cores
+$white : #FFFFFF;
+$white-2 : #F5F5F5;
+$white-3 : #FBFBFB;
+$white-4 : #F4F4F4;
+$white-5 : #F1F1F1BD;
+$black : #000000;
+$gray : #333333;
+$gray-1 : #848484;
+$gray-2 : #575756;
+$gray-3 : #0000001C;
+$gray-4 : #9C9C9C29;
+$red : #E42313;
+
+// Tipografias
+$font-style: normal;
+$font-variant: normal;
+$font-weight: normal;
+$font-color: #222;
+$font-size: 1rem;
+$line-height: 1.5;
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-family-2: 'Canaro', sans-serif;
+
+//Fonte Canaro
+@font-face {
+    font-family: 'Canaro';
+    src: url(/src/fonts/Canaro-LightDEMO.woff) format('woff');
+    font-display: swap;
+}
